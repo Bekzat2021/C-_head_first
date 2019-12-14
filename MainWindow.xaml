@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Save_the_Humans"
         mc:Ignorable="d"
-        Title="MainWindow" Height="681.5" Width="900">
+        Title="MainWindow" Height="871.5" Width="1140">
     <Window.Resources>
         <ControlTemplate x:Key="EnemyTemplate" TargetType="{x:Type ContentControl}">
             <Grid>
@@ -30,7 +30,7 @@
             <TextBlock TextWrapping="Wrap" Text="Avoid These" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <ContentControl Content="ContentControl" HorizontalAlignment="Center" VerticalAlignment="Center" Template="{DynamicResource EnemyTemplate}"/>
         </StackPanel>
-        <ProgressBar Grid.Column="1" Grid.Row="2" Height="20"/>
+        <ProgressBar Name="progressBar" Grid.Column="1" Grid.Row="2" Height="20"/>
         <Canvas 
                 Grid.Row="1" Name="playArea" Grid.ColumnSpan="3">
             <Canvas.Background>
