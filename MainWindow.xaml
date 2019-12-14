@@ -13,7 +13,7 @@
             </Grid>
         </ControlTemplate>
     </Window.Resources>
-    <Grid>
+    <Grid Background="#FF3C3C3C">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="160"/>
             <ColumnDefinition/>
@@ -25,7 +25,7 @@
             <RowDefinition Height="160"/>
         </Grid.RowDefinitions>
         <Button Content="Start" HorizontalAlignment="Center" Grid.Row="2"
-                VerticalAlignment="Center" Width="75" Name="StartButton"/>
+                VerticalAlignment="Center" Width="75" Name="StartButton" Click="StartButton_Click"/>
         <StackPanel Grid.Column="2" Orientation="Vertical" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock TextWrapping="Wrap" Text="Avoid These" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <ContentControl Content="ContentControl" HorizontalAlignment="Center" VerticalAlignment="Center" Template="{DynamicResource EnemyTemplate}"/>
@@ -48,8 +48,24 @@
                        TextWrapping="Wrap" Text="Game Over" Canvas.Top="138"
                        Name="gameOverText" FontFamily="Arial" 
                        FontSize="60" FontWeight="Bold" FontStyle="Italic" Foreground="White"/>
+            <Rectangle Name="target" Height="50" Stroke="Black" Width="50" RenderTransformOrigin="0.5,0.5" Canvas.Left="225" Canvas.Top="58">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFF6B" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="45"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
         </Canvas>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Save the Humans" FontSize="22" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="1" Foreground="White"  HorizontalAlignment="Center" TextWrapping="Wrap" Text="Save the Humans" FontSize="22" VerticalAlignment="Center"/>
 
     </Grid>
 </Window>
