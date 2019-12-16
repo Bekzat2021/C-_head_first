@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Save_the_Humans
+namespace UseTheDebugger
 {
     /// <summary>
     /// Interaction logic for App.xaml

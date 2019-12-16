@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Save_the_Humans.Properties
+namespace UseTheDebugger.Properties
 {
 
 

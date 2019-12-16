@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6F95F969-F2E0-41CE-84C7-42286319D9FD}</ProjectGuid>
+    <ProjectGuid>{7098874F-1F9C-4D5C-B42F-9C455B48BE29}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Save_the_Humans</RootNamespace>
-    <AssemblyName>Save the Humans</AssemblyName>
+    <RootNamespace>UseTheDebugger</RootNamespace>
+    <AssemblyName>UseTheDebugger</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
