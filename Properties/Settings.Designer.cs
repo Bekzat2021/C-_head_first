@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UseTheDebugger.Properties
+namespace WpfApp3.Properties
 {
 
 

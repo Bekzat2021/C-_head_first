@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UseTheDebugger
+namespace WpfApp3
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -27,27 +27,8 @@ namespace UseTheDebugger
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int number = 15;
-            number = number + 10;
-            number = 36 * 15;
-            number = 12 - (42 / 7);
-            number += 10;
-            number *= 3;
-            number = 71 / 3;
-
-            int count = 3;
-            count++;
-            count--;
-
-            string result = "hello";
-            result += " again " + result;
-            Output.Text = result;
-            result = "the value is: " + count;
-            result = "";
-
-            bool yesNo = false;
-            bool anotherBool = true;
-            yesNo = !anotherBool;
+            myLabel.Text = "name is Quentin\n";
+            myLabel.Text += "x is 51";
         }
     }
 }
