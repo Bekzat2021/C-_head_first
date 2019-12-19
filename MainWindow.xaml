@@ -1,26 +1,24 @@
-﻿<Window x:Class="WpfApp3.MainWindow"
+﻿<Window x:Class="PracticeUsingIfElse.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp3"
+        xmlns:local="clr-namespace:PracticeUsingIfElse"
         mc:Ignorable="d"
-        Title="MainWindow" Height="360" Width="600">
+        Title="MainWindow" Height="320" Width="640">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <Button Content="Show message" HorizontalAlignment="Center" VerticalAlignment="Center" Width="92" Click="Button_Click"/>
-        <Button Content="if / else" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"/>
-        <Button Content="Another conditional test" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="147"/>
-        <Button Content="A loop" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="75"/>
-        <TextBlock Name="myLabel" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2"  Grid.Row="2" TextWrapping="Wrap" Text="" />
+        <Button x:Name="ChangeTheLable" Content="Change the label if checked" HorizontalAlignment="Center" VerticalAlignment="Center" Width="172"  AutomationProperties.Name="changeText" Click="Button_Click"/>
+        <CheckBox x:Name="EnableLabelChange" Content="Enable label changing" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"  AutomationProperties.Name="enableCheckBox"/>
+        <TextBlock x:Name="Label1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Press the button to change my text"
+                   VerticalAlignment="Center" AutomationProperties.Name="labelToChange" Grid.ColumnSpan="2" Width="258" FontSize="16"/>
 
     </Grid>
 </Window>

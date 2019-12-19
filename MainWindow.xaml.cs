@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp3
+namespace PracticeUsingIfElse
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -27,8 +27,10 @@ namespace WpfApp3
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            myLabel.Text = "name is Quentin\n";
-            myLabel.Text += "x is 51";
+            if (EnableLabelChange.IsEnabled)
+            {
+                Label1.Text = "Text changing is disabled";
+            }
         }
     }
 }
