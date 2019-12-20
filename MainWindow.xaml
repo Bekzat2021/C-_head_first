@@ -19,6 +19,8 @@
         <CheckBox x:Name="EnableLabelChange" Content="Enable label changing" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"  AutomationProperties.Name="enableCheckBox"/>
         <TextBlock x:Name="Label1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Press the button to change my text"
                    VerticalAlignment="Center" AutomationProperties.Name="labelToChange" Grid.ColumnSpan="2" Width="258" FontSize="16"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="209,24,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" Name="Output" VerticalAlignment="Top"/>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="70,21,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

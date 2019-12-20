@@ -27,10 +27,28 @@ namespace PracticeUsingIfElse
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (EnableLabelChange.IsEnabled)
+            if (EnableLabelChange.IsChecked==true)
+            {
+                if (Label1.HorizontalAlignment==HorizontalAlignment.Right)
+                {
+                    Label1.HorizontalAlignment = HorizontalAlignment.Left;
+                    Label1.Text = "Left";
+                }
+                else
+                {
+                    Label1.HorizontalAlignment = HorizontalAlignment.Right;
+                    Label1.Text = "Right";
+                }
+            }
+            else
             {
                 Label1.Text = "Text changing is disabled";
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }
