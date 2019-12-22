@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PracticeUsingIfElse.Properties
+namespace WindowsFormsApp1.Properties
 {
 
 
