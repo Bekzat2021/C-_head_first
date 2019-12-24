@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void NotMain()
+        static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

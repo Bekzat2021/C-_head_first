@@ -17,26 +17,23 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void changeText_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (enableCheckBox.Checked==true)
+            while (Visible)
             {
-                if (labelToChange.Text=="Right")
+                for (int i = 0; i < 254 && Visible; i++)
                 {
-                    labelToChange.Text = "Left";
-                    labelToChange.TextAlign = ContentAlignment.MiddleLeft;
+                    this.BackColor = Color.FromArgb(i, 255 - i, i);
+                    Application.DoEvents();
+                    System.Threading.Thread.Sleep(3);
                 }
-                else
+                for (int j = 254; j >= 0 && Visible; j--)
                 {
-                    labelToChange.Text = "Right";
-                    labelToChange.TextAlign = ContentAlignment.MiddleRight;
+                    this.BackColor = Color.FromArgb(j, 255 - j, j);
+                    Application.DoEvents();
+                    System.Threading.Thread.Sleep(3);
                 }
-            }
-            else
-            {
-                labelToChange.Text = "Text changin is disabled";
-                labelToChange.TextAlign = ContentAlignment.MiddleCenter;
-            }
+            }            
         }
     }
 }

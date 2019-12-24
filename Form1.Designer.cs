@@ -28,63 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.changeText = new System.Windows.Forms.Button();
-            this.enableCheckBox = new System.Windows.Forms.CheckBox();
-            this.labelToChange = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // changeText
+            // button1
             // 
-            this.changeText.Location = new System.Drawing.Point(12, 13);
-            this.changeText.Name = "changeText";
-            this.changeText.Size = new System.Drawing.Size(155, 23);
-            this.changeText.TabIndex = 0;
-            this.changeText.Text = "Change the label if checked";
-            this.changeText.UseVisualStyleBackColor = true;
-            this.changeText.Click += new System.EventHandler(this.changeText_Click);
-            // 
-            // enableCheckBox
-            // 
-            this.enableCheckBox.AutoSize = true;
-            this.enableCheckBox.Checked = true;
-            this.enableCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.enableCheckBox.Location = new System.Drawing.Point(341, 17);
-            this.enableCheckBox.Name = "enableCheckBox";
-            this.enableCheckBox.Size = new System.Drawing.Size(131, 17);
-            this.enableCheckBox.TabIndex = 1;
-            this.enableCheckBox.Text = "Enable label changing";
-            this.enableCheckBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.enableCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // labelToChange
-            // 
-            this.labelToChange.Location = new System.Drawing.Point(12, 60);
-            this.labelToChange.Name = "labelToChange";
-            this.labelToChange.Size = new System.Drawing.Size(460, 23);
-            this.labelToChange.TabIndex = 2;
-            this.labelToChange.Text = "Press the button to change my text";
-            this.labelToChange.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button1.Location = new System.Drawing.Point(74, 59);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(107, 81);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Go";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 95);
-            this.Controls.Add(this.labelToChange);
-            this.Controls.Add(this.enableCheckBox);
-            this.Controls.Add(this.changeText);
+            this.ClientSize = new System.Drawing.Size(265, 221);
+            this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "My Desktop App";
+            this.Text = "FlashyThing";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button changeText;
-        private System.Windows.Forms.CheckBox enableCheckBox;
-        private System.Windows.Forms.Label labelToChange;
+        private System.Windows.Forms.Button button1;
     }
 }
 

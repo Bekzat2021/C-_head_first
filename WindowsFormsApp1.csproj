@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{79AF6A67-71B9-4770-86F0-71F5E6F0C25A}</ProjectGuid>
+    <ProjectGuid>{F0F30355-A938-4738-BE43-999F80DAC4E9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsFormsApp1</RootNamespace>
     <AssemblyName>WindowsFormsApp1</AssemblyName>
@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnotherClass.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
