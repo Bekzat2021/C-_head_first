@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Talker.Properties
+namespace Fun.Properties
 {
 
 

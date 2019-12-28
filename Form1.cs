@@ -8,19 +8,48 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Talker
+namespace Fun
 {
     public partial class Form1 : Form
     {
+        Guy joe;
+        Guy bob;
+        int bank = 100;
+
+        public void UpdateForm()
+        {
+            joesCahLabel.Text = joe.Name + " has $" + joe.Cash;
+            bobsCashLabel.Text = bob.Name + " has $" + bob.Cash;
+            bankCashLabel.Text = "The bank has $" + bank;
+        }
+
         public Form1()
         {
             InitializeComponent();
+            joe = new Guy() { Name = "Joe", Cash = 50 };
+
+            bob = new Guy() { Name = "Bob", Cash = 100 };
+
+            UpdateForm();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int len = Talker.BlahBlahBlah(textBox1.Text, (int)numericUpDown1.Value);
-            MessageBox.Show("This message length is " + len);
+            if (bank>=10)
+            {
+                bank -= joe.ReciveCash(10);
+                UpdateForm();
+            }
+            else
+            {
+                MessageBox.Show("The bank is out of money.");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            bank += bob.GiveCash(5);
+            UpdateForm();
         }
     }
 }
