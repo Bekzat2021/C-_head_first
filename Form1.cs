@@ -27,7 +27,6 @@ namespace Fun
         {
             InitializeComponent();
             joe = new Guy() { Name = "Joe", Cash = 50 };
-
             bob = new Guy() { Name = "Bob", Cash = 100 };
 
             UpdateForm();
@@ -50,6 +49,32 @@ namespace Fun
         {
             bank += bob.GiveCash(5);
             UpdateForm();
+        }
+
+        private void joeGivesToBob_Click(object sender, EventArgs e)
+        {
+            if (joe.Cash>=10)
+            {
+                bob.Cash+=joe.GiveCash(10);
+                UpdateForm();
+            }
+            else
+            {
+                MessageBox.Show(joe.Name + " not enough money to give Bob");
+            }
+        }
+
+        private void bobGivesToJoe_Click(object sender, EventArgs e)
+        {
+            if (bob.Cash>=5)
+            {
+                joe.Cash += bob.GiveCash(5);
+                UpdateForm();
+            }
+            else
+            {
+                MessageBox.Show(bob.Name + " not enough money to give Joe");
+            }
         }
     }
 }

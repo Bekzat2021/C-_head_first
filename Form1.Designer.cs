@@ -33,6 +33,10 @@
             this.bankCashLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.joeGivesToBob = new System.Windows.Forms.Button();
+            this.bobGivesToJoe = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // joesCahLabel
@@ -79,11 +83,41 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // joeGivesToBob
+            // 
+            this.joeGivesToBob.Location = new System.Drawing.Point(27, 185);
+            this.joeGivesToBob.Name = "joeGivesToBob";
+            this.joeGivesToBob.Size = new System.Drawing.Size(75, 44);
+            this.joeGivesToBob.TabIndex = 5;
+            this.joeGivesToBob.Text = "Joe gives $10 to Bob";
+            this.joeGivesToBob.UseVisualStyleBackColor = true;
+            this.joeGivesToBob.Click += new System.EventHandler(this.joeGivesToBob_Click);
+            // 
+            // bobGivesToJoe
+            // 
+            this.bobGivesToJoe.Location = new System.Drawing.Point(122, 185);
+            this.bobGivesToJoe.Name = "bobGivesToJoe";
+            this.bobGivesToJoe.Size = new System.Drawing.Size(75, 44);
+            this.bobGivesToJoe.TabIndex = 6;
+            this.bobGivesToJoe.Text = "Bob gives $5 to Joe";
+            this.bobGivesToJoe.UseVisualStyleBackColor = true;
+            this.bobGivesToJoe.Click += new System.EventHandler(this.bobGivesToJoe_Click);
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(56, 39);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown1.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(227, 202);
+            this.ClientSize = new System.Drawing.Size(224, 253);
+            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.bobGivesToJoe);
+            this.Controls.Add(this.joeGivesToBob);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.bankCashLabel);
@@ -91,6 +125,7 @@
             this.Controls.Add(this.joesCahLabel);
             this.Name = "Form1";
             this.Text = "Fun";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,6 +138,9 @@
         private System.Windows.Forms.Label bankCashLabel;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button joeGivesToBob;
+        private System.Windows.Forms.Button bobGivesToJoe;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 
