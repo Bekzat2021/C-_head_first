@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Chapter4Program1.Properties
+namespace MileageCalcilator.Properties
 {
 
 

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Chapter4Program1
+namespace MileageCalcilator
 {
     public partial class Form1 : Form
     {
@@ -17,36 +17,29 @@ namespace Chapter4Program1
             InitializeComponent();
         }
 
+        int startingMileage = 0;
+        int endingMileage = 0;
+
+        double milesTraveled = 0;
+        double reimburseRate = 0.39;
+        double amountOwned = 0;
+
         private void button1_Click(object sender, EventArgs e)
         {
-            int myInt = 10;
-            byte myByte = (byte)myInt;
+            startingMileage = (int)numericUpDown1.Value;
+            endingMileage = (int)numericUpDown2.Value;
 
-            double myDouble = (double)myByte;
-
-            //bool myBool = (bool)myDouble;
-
-            string myString = "false";
-
-            //myBool = (bool)myString;
-
-            //myString = (string)myInt;
-
-            myString = myInt.ToString();
-
-            //myBool = (bool)myByte;
-
-            //myByte = (byte)myBool;
-
-            short myShort = (short)myInt;
-
-            char myChar = 'x';
-
-            long myLong = (long)myInt;
-
-            decimal myDecimal = (decimal)myLong;
-
-            myString = myString + myInt + myByte + myDouble + myChar;
+            if (startingMileage<endingMileage)
+            {
+                milesTraveled = endingMileage - startingMileage;
+                amountOwned = milesTraveled *= reimburseRate;
+                label4.Text = "$" + amountOwned;
+            }
+            else
+            {
+                MessageBox.Show("The starting mileage must be less " +
+                    "than the ending mileage", "Cannot calculate mileage");
+            }
         }
     }
 }

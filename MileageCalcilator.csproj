@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{40D83300-25EF-4B04-B841-147871C16B02}</ProjectGuid>
+    <ProjectGuid>{2068C9EC-094D-4870-B24A-21B165A04040}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Chapter4Program1</RootNamespace>
-    <AssemblyName>Chapter4Program1</AssemblyName>
+    <RootNamespace>MileageCalcilator</RootNamespace>
+    <AssemblyName>MileageCalcilator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Chapter4Program1
+namespace MileageCalcilator
 {
     static class Program
     {
