@@ -8,73 +8,45 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Fun
+namespace Chapter4Program1
 {
     public partial class Form1 : Form
     {
-        Guy joe;
-        Guy bob;
-        int bank = 100;
-
-        public void UpdateForm()
-        {
-            joesCahLabel.Text = joe.Name + " has $" + joe.Cash;
-            bobsCashLabel.Text = bob.Name + " has $" + bob.Cash;
-            bankCashLabel.Text = "The bank has $" + bank;
-        }
-
         public Form1()
         {
             InitializeComponent();
-            joe = new Guy() { Name = "Joe", Cash = 50 };
-            bob = new Guy() { Name = "Bob", Cash = 100 };
-
-            UpdateForm();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (bank>=10)
-            {
-                bank -= joe.ReciveCash(10);
-                UpdateForm();
-            }
-            else
-            {
-                MessageBox.Show("The bank is out of money.");
-            }
-        }
+            int myInt = 10;
+            byte myByte = (byte)myInt;
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            bank += bob.GiveCash(5);
-            UpdateForm();
-        }
+            double myDouble = (double)myByte;
 
-        private void joeGivesToBob_Click(object sender, EventArgs e)
-        {
-            if (joe.Cash>=10)
-            {
-                bob.Cash+=joe.GiveCash(10);
-                UpdateForm();
-            }
-            else
-            {
-                MessageBox.Show(joe.Name + " not enough money to give Bob");
-            }
-        }
+            //bool myBool = (bool)myDouble;
 
-        private void bobGivesToJoe_Click(object sender, EventArgs e)
-        {
-            if (bob.Cash>=5)
-            {
-                joe.Cash += bob.GiveCash(5);
-                UpdateForm();
-            }
-            else
-            {
-                MessageBox.Show(bob.Name + " not enough money to give Joe");
-            }
+            string myString = "false";
+
+            //myBool = (bool)myString;
+
+            //myString = (string)myInt;
+
+            myString = myInt.ToString();
+
+            //myBool = (bool)myByte;
+
+            //myByte = (byte)myBool;
+
+            short myShort = (short)myInt;
+
+            char myChar = 'x';
+
+            long myLong = (long)myInt;
+
+            decimal myDecimal = (decimal)myLong;
+
+            myString = myString + myInt + myByte + myDouble + myChar;
         }
     }
 }

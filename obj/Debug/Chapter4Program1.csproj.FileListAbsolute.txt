@@ -1,0 +1,10 @@
+C:\Users\Becza\Desktop\C#\Chapter-4-Program-1\Chapter4Program1\obj\Debug\Chapter4Program1.csprojAssemblyReference.cache
+C:\Users\Becza\Desktop\C#\Chapter-4-Program-1\Chapter4Program1\obj\Debug\Chapter4Program1.Form1.resources
+C:\Users\Becza\Desktop\C#\Chapter-4-Program-1\Chapter4Program1\obj\Debug\Chapter4Program1.Properties.Resources.resources
+C:\Users\Becza\Desktop\C#\Chapter-4-Program-1\Chapter4Program1\obj\Debug\Chapter4Program1.csproj.GenerateResource.cache
+C:\Users\Becza\Desktop\C#\Chapter-4-Program-1\Chapter4Program1\obj\Debug\Chapter4Program1.csproj.CoreCompileInputs.cache
+C:\Users\Becza\Desktop\C#\Chapter-4-Program-1\Chapter4Program1\bin\Debug\Chapter4Program1.exe.config
+C:\Users\Becza\Desktop\C#\Chapter-4-Program-1\Chapter4Program1\bin\Debug\Chapter4Program1.exe
+C:\Users\Becza\Desktop\C#\Chapter-4-Program-1\Chapter4Program1\bin\Debug\Chapter4Program1.pdb
+C:\Users\Becza\Desktop\C#\Chapter-4-Program-1\Chapter4Program1\obj\Debug\Chapter4Program1.exe
+C:\Users\Becza\Desktop\C#\Chapter-4-Program-1\Chapter4Program1\obj\Debug\Chapter4Program1.pdb

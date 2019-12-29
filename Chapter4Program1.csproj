@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{31B9B846-1949-4768-98F7-DE0107E75A29}</ProjectGuid>
+    <ProjectGuid>{40D83300-25EF-4B04-B841-147871C16B02}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Fun</RootNamespace>
-    <AssemblyName>Fun</AssemblyName>
+    <RootNamespace>Chapter4Program1</RootNamespace>
+    <AssemblyName>Chapter4Program1</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,7 +52,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Guy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

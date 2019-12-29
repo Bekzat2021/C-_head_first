@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Fun.Properties
+namespace Chapter4Program1.Properties
 {
 
 
