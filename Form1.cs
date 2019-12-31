@@ -8,45 +8,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Elephant
+namespace Sloppy_Joe
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-        bool swapped;
 
-        Elephant lucinda = new Elephant { name = "Lucinda", EarSize = 33 };
-        Elephant lloyd = new Elephant { name = "Lloyd", EarSize = 40 };
+            MenuMaker menu = new MenuMaker() { randomizer = new Random() };
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            lloyd.WhoIam();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            lucinda.WhoIam();
+            label1.Text = menu.GetMenuItem();
+            label2.Text = menu.GetMenuItem();
+            label3.Text = menu.GetMenuItem();
+            label4.Text = menu.GetMenuItem();
+            label5.Text = menu.GetMenuItem();
+            label6.Text = menu.GetMenuItem();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Objects swapped!");
-            swapped = !swapped;
-            if (swapped)
-            {
-                Elephant temp = lloyd;
-                lloyd = lucinda;
-                lucinda = temp;
-            }
-            else
-            {
-                Elephant temp = lloyd;
-                lloyd = lucinda;
-                lucinda = temp;
-            }
-        }
+        
     }
 }

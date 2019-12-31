@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Elephant.Properties
+namespace Sloppy_Joe.Properties
 {
 
 
