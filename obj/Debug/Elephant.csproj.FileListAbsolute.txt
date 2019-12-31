@@ -1,0 +1,10 @@
+C:\Users\Becza\Desktop\C#\Elephant\Elephant\bin\Debug\Elephant.exe.config
+C:\Users\Becza\Desktop\C#\Elephant\Elephant\bin\Debug\Elephant.exe
+C:\Users\Becza\Desktop\C#\Elephant\Elephant\bin\Debug\Elephant.pdb
+C:\Users\Becza\Desktop\C#\Elephant\Elephant\obj\Debug\Elephant.csprojAssemblyReference.cache
+C:\Users\Becza\Desktop\C#\Elephant\Elephant\obj\Debug\Elephant.Form1.resources
+C:\Users\Becza\Desktop\C#\Elephant\Elephant\obj\Debug\Elephant.Properties.Resources.resources
+C:\Users\Becza\Desktop\C#\Elephant\Elephant\obj\Debug\Elephant.csproj.GenerateResource.cache
+C:\Users\Becza\Desktop\C#\Elephant\Elephant\obj\Debug\Elephant.csproj.CoreCompileInputs.cache
+C:\Users\Becza\Desktop\C#\Elephant\Elephant\obj\Debug\Elephant.exe
+C:\Users\Becza\Desktop\C#\Elephant\Elephant\obj\Debug\Elephant.pdb

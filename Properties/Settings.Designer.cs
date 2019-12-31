@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MileageCalcilator.Properties
+namespace Elephant.Properties
 {
 
 

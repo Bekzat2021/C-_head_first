@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MileageCalcilator
+namespace Elephant
 {
     public partial class Form1 : Form
     {
@@ -16,35 +16,37 @@ namespace MileageCalcilator
         {
             InitializeComponent();
         }
+        bool swapped;
 
-        int startingMileage = 0;
-        int endingMileage = 0;
-
-        double milesTraveled = 0;
-        double reimburseRate = 0.39;
-        double amountOwned = 0;
+        Elephant lucinda = new Elephant { name = "Lucinda", EarSize = 33 };
+        Elephant lloyd = new Elephant { name = "Lloyd", EarSize = 40 };
 
         private void button1_Click(object sender, EventArgs e)
         {
-            startingMileage = (int)numericUpDown1.Value;
-            endingMileage = (int)numericUpDown2.Value;
-
-            if (startingMileage<endingMileage)
-            {
-                milesTraveled = endingMileage - startingMileage;
-                amountOwned = milesTraveled * reimburseRate;
-                label4.Text = "$" + amountOwned;
-            }
-            else
-            {
-                MessageBox.Show("The starting mileage must be less " +
-                    "than the ending mileage", "Cannot calculate mileage");
-            }
+            lloyd.WhoIam();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(milesTraveled + " miles", "Miles Traveled");
+            lucinda.WhoIam();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Objects swapped!");
+            swapped = !swapped;
+            if (swapped)
+            {
+                Elephant temp = lloyd;
+                lloyd = lucinda;
+                lucinda = temp;
+            }
+            else
+            {
+                Elephant temp = lloyd;
+                lloyd = lucinda;
+                lucinda = temp;
+            }
         }
     }
 }

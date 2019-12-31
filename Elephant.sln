@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageCalcilator", "MileageCalcilator.csproj", "{2068C9EC-094D-4870-B24A-21B165A04040}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elephant", "Elephant.csproj", "{3C4383A1-1ABA-4DAE-9475-FAFA0252188B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2068C9EC-094D-4870-B24A-21B165A04040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2068C9EC-094D-4870-B24A-21B165A04040}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2068C9EC-094D-4870-B24A-21B165A04040}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2068C9EC-094D-4870-B24A-21B165A04040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4383A1-1ABA-4DAE-9475-FAFA0252188B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4383A1-1ABA-4DAE-9475-FAFA0252188B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4383A1-1ABA-4DAE-9475-FAFA0252188B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4383A1-1ABA-4DAE-9475-FAFA0252188B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5BA7E198-52CA-444C-9AF0-1D376AD96D3F}
+		SolutionGuid = {4CE3D30B-DD1B-4CF3-B883-DCE95AF17A66}
 	EndGlobalSection
 EndGlobal
