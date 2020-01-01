@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Sloppy_Joe
+namespace Hit_the_keys
 {
     static class Program
     {

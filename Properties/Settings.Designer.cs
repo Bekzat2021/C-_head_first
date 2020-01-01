@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sloppy_Joe.Properties
+namespace Hit_the_keys.Properties
 {
 
 
