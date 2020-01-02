@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Hit_the_keys.Properties
+namespace Bouncing_labels.Properties
 {
 
 

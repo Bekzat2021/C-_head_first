@@ -1,0 +1,10 @@
+C:\Users\Becza\Desktop\C#\Bouncing_labels\Bouncing_labels\bin\Debug\Bouncing_labels.exe.config
+C:\Users\Becza\Desktop\C#\Bouncing_labels\Bouncing_labels\bin\Debug\Bouncing_labels.exe
+C:\Users\Becza\Desktop\C#\Bouncing_labels\Bouncing_labels\bin\Debug\Bouncing_labels.pdb
+C:\Users\Becza\Desktop\C#\Bouncing_labels\Bouncing_labels\obj\Debug\Bouncing_labels.csprojAssemblyReference.cache
+C:\Users\Becza\Desktop\C#\Bouncing_labels\Bouncing_labels\obj\Debug\Bouncing_labels.Form1.resources
+C:\Users\Becza\Desktop\C#\Bouncing_labels\Bouncing_labels\obj\Debug\Bouncing_labels.Properties.Resources.resources
+C:\Users\Becza\Desktop\C#\Bouncing_labels\Bouncing_labels\obj\Debug\Bouncing_labels.csproj.GenerateResource.cache
+C:\Users\Becza\Desktop\C#\Bouncing_labels\Bouncing_labels\obj\Debug\Bouncing_labels.csproj.CoreCompileInputs.cache
+C:\Users\Becza\Desktop\C#\Bouncing_labels\Bouncing_labels\obj\Debug\Bouncing_labels.exe
+C:\Users\Becza\Desktop\C#\Bouncing_labels\Bouncing_labels\obj\Debug\Bouncing_labels.pdb

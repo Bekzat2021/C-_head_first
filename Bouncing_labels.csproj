@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9DEFA8E4-F0A1-43DD-B2F4-E864CAE168C4}</ProjectGuid>
+    <ProjectGuid>{F6A69710-6E0B-4D70-B977-26FA4FA886A9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Hit_the_keys</RootNamespace>
-    <AssemblyName>Hit_the_keys</AssemblyName>
+    <RootNamespace>Bouncing_labels</RootNamespace>
+    <AssemblyName>Bouncing_labels</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,6 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LabelBouncer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

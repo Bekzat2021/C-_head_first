@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Hit_the_keys
+namespace Bouncing_labels
 {
     public partial class Form1 : Form
     {
@@ -17,14 +17,44 @@ namespace Hit_the_keys
             InitializeComponent();
         }
 
+        LabelBouncer[] bouncers = new LabelBouncer[3];
+
+        private void ToggleBouncing(int index, Label labeltoBounce)
+        {
+            if (bouncers[index]==null)
+            {
+                bouncers[index] = new LabelBouncer();
+                bouncers[index].MyLabel = labeltoBounce;
+            }
+            else
+            {
+                bouncers[index] = null;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ToggleBouncing(0, label1);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ToggleBouncing(1, label2);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ToggleBouncing(2, label3);
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
-            listBox1.Items.Add((Keys)random.Next(65, 90));
-            if (listBox1.Items.Count>7)
+            for (int i = 0; i < 3; i++)
             {
-                listBox1.Items.Clear();
-                listBox1.Items.Add("Game over");
-                timer1.Stop();
+                if (bouncers[i]!=null)
+                {
+                    bouncers[i].Move();
+                }
             }
         }
     }
