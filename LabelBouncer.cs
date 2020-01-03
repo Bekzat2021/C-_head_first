@@ -19,19 +19,19 @@ namespace Bouncing_labels
             {
                 if (GoingForward==true)
                 {
-                    MyLabel.Left += 5;
-                    if (MyLabel.Left>=MyLabel.Parent.Width-MyLabel.Left)
+                    MyLabel.Left += 2;
+                    if (MyLabel.Left>=MyLabel.Parent.Width-MyLabel.Width)
                     {
                         GoingForward = false;
                     }
                 }
-            }
-            else
-            {
-                MyLabel.Left -= 5;
-                if (MyLabel.Left<=0)
+                else
                 {
-                    GoingForward = true;
+                    MyLabel.Left -= 2;
+                    if (MyLabel.Left <= 0)
+                    {
+                        GoingForward = true;
+                    }
                 }
             }
         }
