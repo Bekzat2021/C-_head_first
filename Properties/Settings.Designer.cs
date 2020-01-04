@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Bouncing_labels.Properties
+namespace DinnerParty.Properties
 {
 
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bouncing_labels
+namespace DinnerParty
 {
     static class Program
     {
