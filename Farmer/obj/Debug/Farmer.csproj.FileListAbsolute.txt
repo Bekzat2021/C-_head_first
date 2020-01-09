@@ -1,0 +1,9 @@
+D:\C# books labs\Farmer\Farmer\Farmer\bin\Debug\Farmer.exe.config
+D:\C# books labs\Farmer\Farmer\Farmer\bin\Debug\Farmer.exe
+D:\C# books labs\Farmer\Farmer\Farmer\bin\Debug\Farmer.pdb
+D:\C# books labs\Farmer\Farmer\Farmer\obj\Debug\Farmer.csprojAssemblyReference.cache
+D:\C# books labs\Farmer\Farmer\Farmer\obj\Debug\Farmer.Form1.resources
+D:\C# books labs\Farmer\Farmer\Farmer\obj\Debug\Farmer.Properties.Resources.resources
+D:\C# books labs\Farmer\Farmer\Farmer\obj\Debug\Farmer.csproj.GenerateResource.cache
+D:\C# books labs\Farmer\Farmer\Farmer\obj\Debug\Farmer.exe
+D:\C# books labs\Farmer\Farmer\Farmer\obj\Debug\Farmer.pdb
