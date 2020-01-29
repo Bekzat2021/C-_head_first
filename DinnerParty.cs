@@ -54,7 +54,7 @@ namespace DinnerParty
             get
             {
                 decimal totalCost = CalculateCostOfDecorations();
-                totalCost += ((CalculateCostOfBeveragesPerPerson() + CostOfFoodPerPerson) + NumberOfPeople);
+                totalCost += ((CalculateCostOfBeveragesPerPerson() + CostOfFoodPerPerson) * NumberOfPeople);
                 if (HealthyOption)
                 {
                     totalCost *= .95M;

@@ -13,30 +13,60 @@ namespace DinnerParty
     public partial class Form1 : Form
     {
         DinnerParty dinnerParty;
+        BirthDayParty birthdayParty;
 
         public Form1()
         {
             InitializeComponent();
 
             dinnerParty = new DinnerParty((int)numericUpDown1.Value, HealtyhBox.Checked, FancyBox.Checked);
+            DisplayDinnerPartyCost();
+
+            birthdayParty = new BirthDayParty((int)numberBirthday.Value, fancyBirthday.Checked, cakeWriting.Text);
+            DisplayBirthdayPartyCost();
             
         }
+        
+        private void numberBirthday_ValueChanged(object sender, EventArgs e)
+        {
+            birthdayParty.NumberOfPeople = (int)numberBirthday.Value;
+            DisplayBirthdayPartyCost();
+        }
 
-        private void FancyBox_CheckedChanged(object sender, EventArgs e)
+        private void fancyBirthday_CheckedChanged(object sender, EventArgs e)
+        {
+            birthdayParty.FancyDecorations = fancyBirthday.Checked;
+            DisplayBirthdayPartyCost();
+        }
+
+        private void cakeWriting_TextChanged(object sender, EventArgs e)
+        {
+            birthdayParty.CakeWriting = cakeWriting.Text;
+            DisplayBirthdayPartyCost();
+        }
+
+        private void DisplayBirthdayPartyCost()
+        {
+            tooLongLable.Visible = birthdayParty.CakeWritingTooLong;
+            decimal cost = birthdayParty.Cost;
+            birthdayCost.Text = cost.ToString("c");
+        }
+
+        private void numericUpDown1_ValueChanged_1(object sender, EventArgs e)
+        {
+            dinnerParty.NumberOfPeople = (int)numericUpDown1.Value;
+            DisplayDinnerPartyCost();
+        }
+
+        private void FancyBox_CheckedChanged_1(object sender, EventArgs e)
         {
             dinnerParty.FancyDecorations = FancyBox.Checked;
             DisplayDinnerPartyCost();
         }
-        
-        private void HealtyhBox_CheckedChanged(object sender, EventArgs e)
+
+        private void HealtyhBox_CheckedChanged_1(object sender, EventArgs e)
         {
             dinnerParty.HealthyOption = HealtyhBox.Checked;
-            DisplayDinnerPartyCost();
-        }
-        
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-            dinnerParty.NumberOfPeople = (int)numericUpDown1.Value;
             DisplayDinnerPartyCost();
         }
 

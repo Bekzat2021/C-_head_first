@@ -17,7 +17,7 @@ namespace DinnerParty
         {
             NumberOfPeople = numberOfPeople;
             FancyDecorations = fancyDecorations;
-            cakeWriting = CakeWriting;
+            CakeWriting = cakeWriting;
         }
 
         private int ActualLength
