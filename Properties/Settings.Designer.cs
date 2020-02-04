@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DinnerParty.Properties
+namespace BeeHiveManagment.Properties
 {
 
 
