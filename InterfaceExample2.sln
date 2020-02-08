@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeHiveManagment", "BeeHiveManagment.csproj", "{40260FF8-1A5B-46F3-910C-C50B1ABC3259}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExample2", "InterfaceExample2.csproj", "{26035222-408C-4A9B-AB15-71CFFC9DF76F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{40260FF8-1A5B-46F3-910C-C50B1ABC3259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40260FF8-1A5B-46F3-910C-C50B1ABC3259}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40260FF8-1A5B-46F3-910C-C50B1ABC3259}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40260FF8-1A5B-46F3-910C-C50B1ABC3259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26035222-408C-4A9B-AB15-71CFFC9DF76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26035222-408C-4A9B-AB15-71CFFC9DF76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26035222-408C-4A9B-AB15-71CFFC9DF76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26035222-408C-4A9B-AB15-71CFFC9DF76F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0E50C634-1846-47B9-89FA-290913E44A6A}
+		SolutionGuid = {77C76C33-361F-41CF-95E4-733D7AEF9E26}
 	EndGlobalSection
 EndGlobal

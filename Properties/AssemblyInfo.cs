@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BeeHiveManagment")]
+[assembly: AssemblyTitle("InterfaceExample2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BeeHiveManagment")]
+[assembly: AssemblyProduct("InterfaceExample2")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("40260ff8-1a5b-46f3-910c-c50b1abc3259")]
+[assembly: Guid("26035222-408c-4a9b-ab15-71cffc9df76f")]
 
 // Version information for an assembly consists of the following four values:
 //

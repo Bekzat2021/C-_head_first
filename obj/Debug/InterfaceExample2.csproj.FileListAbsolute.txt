@@ -1,0 +1,6 @@
+C:\Users\Becza\Desktop\C#\Interface2\InterfaceExample2\obj\Debug\InterfaceExample2.csproj.CoreCompileInputs.cache
+C:\Users\Becza\Desktop\C#\Interface2\InterfaceExample2\bin\Debug\InterfaceExample2.exe.config
+C:\Users\Becza\Desktop\C#\Interface2\InterfaceExample2\bin\Debug\InterfaceExample2.exe
+C:\Users\Becza\Desktop\C#\Interface2\InterfaceExample2\bin\Debug\InterfaceExample2.pdb
+C:\Users\Becza\Desktop\C#\Interface2\InterfaceExample2\obj\Debug\InterfaceExample2.exe
+C:\Users\Becza\Desktop\C#\Interface2\InterfaceExample2\obj\Debug\InterfaceExample2.pdb
