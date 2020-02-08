@@ -49,6 +49,7 @@
             this.nextShift.TabIndex = 0;
             this.nextShift.Text = "Work the next shift";
             this.nextShift.UseVisualStyleBackColor = true;
+            this.nextShift.Click += new System.EventHandler(this.nextShift_Click);
             // 
             // groupBox1
             // 
@@ -88,6 +89,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Assign this job to a bee";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // workerBeeJob
             // 
