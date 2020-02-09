@@ -15,12 +15,18 @@ namespace InterfaceExample2
         {
             Console.WriteLine("My name is " + Name + " and I'm " + Height + " inches tall.");
         }
-
+        
         public void Honk()
         {
-            
+            Console.WriteLine("Honk, honk!");
         }
 
-        public string FunnyThingIHave { get; }
+        public string FunnyThingIHave
+        {
+            get
+            {
+                return "big shoes!";
+            }
+        }
     }
 }

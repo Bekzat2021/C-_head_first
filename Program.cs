@@ -12,6 +12,8 @@ namespace InterfaceExample2
         {
             TallGuy tallGuy = new TallGuy() { Height = 74, Name = "Jimmy" };
             tallGuy.TalkAboutYourself();
+            tallGuy.Honk();
+            Console.WriteLine(tallGuy.FunnyThingIHave);
         }
     }
 }
