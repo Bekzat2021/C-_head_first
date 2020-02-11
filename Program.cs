@@ -10,10 +10,11 @@ namespace InterfaceExample2
     {
         static void Main(string[] args)
         {
-            TallGuy tallGuy = new TallGuy() { Height = 74, Name = "Jimmy" };
-            tallGuy.TalkAboutYourself();
-            tallGuy.Honk();
-            Console.WriteLine(tallGuy.FunnyThingIHave);
+            ScaryScary fingersTheClown = new ScaryScary("big shoes", 14);
+            FunnyFunny someFunnyClown = fingersTheClown;
+            IScaryClown someOtherScaryClown = someFunnyClown as ScaryScary;
+            someOtherScaryClown.Honk();
+            Console.ReadKey();
         }
     }
 }
