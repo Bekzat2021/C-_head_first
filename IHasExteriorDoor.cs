@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfaceExample2
+namespace House
 {
-    interface IClown
+    interface IHasExteriorDoor
     {
-        void Honk();
-        string FunnyThingIHave { get; }
+        string DoorDescription { get; }
+        string DoorLocation { get; set; }
     }
 }

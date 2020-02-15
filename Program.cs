@@ -1,20 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace InterfaceExample2
+namespace House
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
-            ScaryScary fingersTheClown = new ScaryScary("big shoes", 14);
-            FunnyFunny someFunnyClown = fingersTheClown;
-            IScaryClown someOtherScaryClown = someFunnyClown as ScaryScary;
-            someOtherScaryClown.Honk();
-            Console.ReadKey();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
     }
 }
