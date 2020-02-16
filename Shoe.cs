@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnumsAndCollections
+namespace ListExample
 {
-    enum Suits
+    class Shoe
     {
-        Spades,
-        Clubs,
-        Diamonds,
-        Hearts,
+        public Style Style;
+        public string Color;
     }
 }

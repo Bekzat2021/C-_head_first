@@ -1,22 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace EnumsAndCollections
+namespace ListExample
 {
-    static class Program
+    class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            List<Shoe> shoeCloset = new List<Shoe>();
+
+            shoeCloset.Add(new Shoe() { Style = Style.Sneakers, Color = "Black" });
+            shoeCloset.Add(new Shoe() { Style = Style.Clogs, Color = "Brown" });
+            shoeCloset.Add(new Shoe() { Style = Style.Wingtips, Color = "Black" });
+            shoeCloset.Add(new Shoe() { Style = Style.Loafers, Color = "White" });
+            shoeCloset.Add(new Shoe() { Style = Style.Loafers, Color = "Red" });
+            shoeCloset.Add(new Shoe() { Style = Style.Sneakers, Color = "Green" });
+
+            int numberOfShoes = shoeCloset.Count;
+            foreach (Shoe shoe in shoeCloset)
+            {
+                shoe.Style = Style.Flipflops;
+                shoe.Color = "Orange";
+            }
+
+            shoeCloset.RemoveAt(4);
+
+            Shoe thirdShoe = shoeCloset[2];
+            Shoe secondShoe = shoeCloset[1];
+            shoeCloset.Clear();
+
+            shoeCloset.Add(thirdShoe);
+            if (shoeCloset.Contains(secondShoe))
+            {
+                Console.WriteLine("That's surprising!");
+            }
         }
     }
 }
