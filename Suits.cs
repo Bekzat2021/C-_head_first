@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace House
+namespace EnumsAndCollections
 {
-    interface IHasExteriorDoor
+    enum Suits
     {
-        string DoorDescription { get; }
-        string DoorLocation { get; set; }
+        Spades,
+        Clubs,
+        Diamonds,
+        Hearts,
     }
 }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace House.Properties
+namespace EnumsAndCollections.Properties
 {
 
 
