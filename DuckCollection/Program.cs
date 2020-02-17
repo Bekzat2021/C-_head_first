@@ -20,7 +20,20 @@ namespace DuckCollection
                 new Duck() { Kind = KindOfDuck.Decoy, Size=13 },
             };
 
+            PrintDucks(ducks);
+            ducks.Sort();
+            PrintDucks(ducks);
+
             Console.ReadKey();
+        }
+
+        public static void PrintDucks(List<Duck> ducks)
+        {
+            foreach (Duck duck in ducks)
+            {
+                Console.WriteLine(duck.Size.ToString() + "-inch " + duck.Kind.ToString());
+            }
+            Console.WriteLine("End of ducks!");
         }
     }
 }
