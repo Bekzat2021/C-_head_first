@@ -1,0 +1,9 @@
+C:\Users\bekza\Desktop\C#\CodeMagnets\CodeMagnets\bin\Debug\CodeMagnets.exe.config
+C:\Users\bekza\Desktop\C#\CodeMagnets\CodeMagnets\bin\Debug\CodeMagnets.exe
+C:\Users\bekza\Desktop\C#\CodeMagnets\CodeMagnets\bin\Debug\CodeMagnets.pdb
+C:\Users\bekza\Desktop\C#\CodeMagnets\CodeMagnets\obj\Debug\CodeMagnets.csprojAssemblyReference.cache
+C:\Users\bekza\Desktop\C#\CodeMagnets\CodeMagnets\obj\Debug\CodeMagnets.Form1.resources
+C:\Users\bekza\Desktop\C#\CodeMagnets\CodeMagnets\obj\Debug\CodeMagnets.Properties.Resources.resources
+C:\Users\bekza\Desktop\C#\CodeMagnets\CodeMagnets\obj\Debug\CodeMagnets.csproj.GenerateResource.cache
+C:\Users\bekza\Desktop\C#\CodeMagnets\CodeMagnets\obj\Debug\CodeMagnets.exe
+C:\Users\bekza\Desktop\C#\CodeMagnets\CodeMagnets\obj\Debug\CodeMagnets.pdb
