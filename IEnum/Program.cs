@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DuckCollection
+namespace IEnum
 {
     class Program
     {
@@ -20,20 +20,17 @@ namespace DuckCollection
                 new Duck() { Kind = KindOfDuck.Decoy, Size=13 },
             };
 
-            PrintDucks(ducks);
-            ducks.Sort();
-            PrintDucks(ducks);
+            IEnumerable<Bird> upcastDucks = ducks;
 
-            Console.ReadKey();
-        }
+            List<Bird> birds = new List<Bird>();
+            birds.Add(new Bird { Name = "Feathers" });
+            birds.AddRange(upcastDucks);
+            birds.Add(new Penguin() { Name = "George" });
 
-        public static void PrintDucks(List<Duck> ducks)
-        {
-            foreach (Duck duck in ducks)
+            foreach (Bird bird in birds)
             {
-                Console.WriteLine(duck.Size.ToString() + "-inch " + duck.Kind.ToString());
+                Console.WriteLine(bird);
             }
-            Console.WriteLine("End of ducks!");
         }
     }
 }

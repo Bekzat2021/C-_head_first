@@ -1,0 +1,6 @@
+C:\Users\bekza\Desktop\C#\IEnum\IEnum\bin\Debug\IEnum.exe.config
+C:\Users\bekza\Desktop\C#\IEnum\IEnum\bin\Debug\IEnum.exe
+C:\Users\bekza\Desktop\C#\IEnum\IEnum\bin\Debug\IEnum.pdb
+C:\Users\bekza\Desktop\C#\IEnum\IEnum\obj\Debug\IEnum.csprojAssemblyReference.cache
+C:\Users\bekza\Desktop\C#\IEnum\IEnum\obj\Debug\IEnum.exe
+C:\Users\bekza\Desktop\C#\IEnum\IEnum\obj\Debug\IEnum.pdb

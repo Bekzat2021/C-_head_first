@@ -1,6 +1,0 @@
-C:\Users\bekza\Desktop\C#\DuckCollection\DuckCollection\bin\Debug\DuckCollection.exe.config
-C:\Users\bekza\Desktop\C#\DuckCollection\DuckCollection\bin\Debug\DuckCollection.exe
-C:\Users\bekza\Desktop\C#\DuckCollection\DuckCollection\bin\Debug\DuckCollection.pdb
-C:\Users\bekza\Desktop\C#\DuckCollection\DuckCollection\obj\Debug\DuckCollection.csprojAssemblyReference.cache
-C:\Users\bekza\Desktop\C#\DuckCollection\DuckCollection\obj\Debug\DuckCollection.exe
-C:\Users\bekza\Desktop\C#\DuckCollection\DuckCollection\obj\Debug\DuckCollection.pdb

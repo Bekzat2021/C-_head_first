@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D94511C-ABEE-4586-8F4F-F5EF8556F4DD}</ProjectGuid>
+    <ProjectGuid>{9F8A686A-485E-457C-8EEE-EFC6BF3F6C93}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DuckCollection</RootNamespace>
-    <AssemblyName>DuckCollection</AssemblyName>
+    <RootNamespace>IEnum</RootNamespace>
+    <AssemblyName>IEnum</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bird.cs" />
     <Compile Include="Duck.cs" />
-    <Compile Include="DuckComparerBySize.cs" />
     <Compile Include="KindOfDuck.cs" />
+    <Compile Include="Penguin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

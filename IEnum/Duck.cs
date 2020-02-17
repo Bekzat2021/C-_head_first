@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DuckCollection
+namespace IEnum
 {
-    class Duck : IComparable<Duck>
+    class Duck : Bird, IComparable<Duck>
     { 
         public int Size;
         public KindOfDuck Kind;
@@ -25,6 +25,11 @@ namespace DuckCollection
             {
                 return 0;
             }
+        }
+
+        public override string ToString()
+        {
+            return "A " + Size + " inch " + Kind.ToString();
         }
     }
 }
