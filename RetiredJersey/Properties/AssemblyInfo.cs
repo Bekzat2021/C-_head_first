@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IEnum")]
+[assembly: AssemblyTitle("RetiredJersey")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IEnum")]
+[assembly: AssemblyProduct("RetiredJersey")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9f8a686a-485e-457c-8eee-efc6bf3f6c93")]
+[assembly: Guid("a3c05e93-27e9-4ee9-bad8-51e9b671eb35")]
 
 // Version information for an assembly consists of the following four values:
 //

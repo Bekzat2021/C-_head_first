@@ -1,0 +1,9 @@
+D:\Books\C#\RetiredJersey\RetiredJersey\bin\Debug\RetiredJersey.exe.config
+D:\Books\C#\RetiredJersey\RetiredJersey\bin\Debug\RetiredJersey.exe
+D:\Books\C#\RetiredJersey\RetiredJersey\bin\Debug\RetiredJersey.pdb
+D:\Books\C#\RetiredJersey\RetiredJersey\obj\Debug\RetiredJersey.csprojAssemblyReference.cache
+D:\Books\C#\RetiredJersey\RetiredJersey\obj\Debug\RetiredJersey.Form1.resources
+D:\Books\C#\RetiredJersey\RetiredJersey\obj\Debug\RetiredJersey.Properties.Resources.resources
+D:\Books\C#\RetiredJersey\RetiredJersey\obj\Debug\RetiredJersey.csproj.GenerateResource.cache
+D:\Books\C#\RetiredJersey\RetiredJersey\obj\Debug\RetiredJersey.exe
+D:\Books\C#\RetiredJersey\RetiredJersey\obj\Debug\RetiredJersey.pdb
