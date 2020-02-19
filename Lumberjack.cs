@@ -36,8 +36,11 @@ namespace BreakfastForLumberjacks
 
         public void EatFlapjacks()
         {
-            Console.WriteLine(name+" ate a "+meal.Peek()+" flapjack");
-            meal.Pop();
+            Console.WriteLine(name+"'s eating flapjacks");
+            while (meal.Count>0)
+            {
+                Console.WriteLine(name + " ate a " + meal.Pop().ToString().ToLower() + " flapjack");
+            }
         }
     }
 }
