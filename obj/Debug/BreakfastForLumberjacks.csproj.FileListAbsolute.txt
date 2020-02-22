@@ -1,9 +1,0 @@
-C:\Users\bekza\Desktop\C#\BreakfastFotLumberjacks\bin\Debug\BreakfastForLumberjacks.exe.config
-C:\Users\bekza\Desktop\C#\BreakfastFotLumberjacks\bin\Debug\BreakfastForLumberjacks.exe
-C:\Users\bekza\Desktop\C#\BreakfastFotLumberjacks\bin\Debug\BreakfastForLumberjacks.pdb
-C:\Users\bekza\Desktop\C#\BreakfastFotLumberjacks\obj\Debug\BreakfastForLumberjacks.csprojAssemblyReference.cache
-C:\Users\bekza\Desktop\C#\BreakfastFotLumberjacks\obj\Debug\BreakfastForLumberjacks.Form1.resources
-C:\Users\bekza\Desktop\C#\BreakfastFotLumberjacks\obj\Debug\BreakfastForLumberjacks.Properties.Resources.resources
-C:\Users\bekza\Desktop\C#\BreakfastFotLumberjacks\obj\Debug\BreakfastForLumberjacks.csproj.GenerateResource.cache
-C:\Users\bekza\Desktop\C#\BreakfastFotLumberjacks\obj\Debug\BreakfastForLumberjacks.exe
-C:\Users\bekza\Desktop\C#\BreakfastFotLumberjacks\obj\Debug\BreakfastForLumberjacks.pdb
