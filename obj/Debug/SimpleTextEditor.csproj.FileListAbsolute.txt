@@ -1,0 +1,10 @@
+C:\Users\Becza\Desktop\C#\SimpleTextEditor\bin\Debug\SimpleTextEditor.exe.config
+C:\Users\Becza\Desktop\C#\SimpleTextEditor\bin\Debug\SimpleTextEditor.exe
+C:\Users\Becza\Desktop\C#\SimpleTextEditor\bin\Debug\SimpleTextEditor.pdb
+C:\Users\Becza\Desktop\C#\SimpleTextEditor\obj\Debug\SimpleTextEditor.csprojAssemblyReference.cache
+C:\Users\Becza\Desktop\C#\SimpleTextEditor\obj\Debug\SimpleTextEditor.Form1.resources
+C:\Users\Becza\Desktop\C#\SimpleTextEditor\obj\Debug\SimpleTextEditor.Properties.Resources.resources
+C:\Users\Becza\Desktop\C#\SimpleTextEditor\obj\Debug\SimpleTextEditor.csproj.GenerateResource.cache
+C:\Users\Becza\Desktop\C#\SimpleTextEditor\obj\Debug\SimpleTextEditor.csproj.CoreCompileInputs.cache
+C:\Users\Becza\Desktop\C#\SimpleTextEditor\obj\Debug\SimpleTextEditor.exe
+C:\Users\Becza\Desktop\C#\SimpleTextEditor\obj\Debug\SimpleTextEditor.pdb

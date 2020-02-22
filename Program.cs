@@ -1,34 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace SecretPlan
+namespace SimpleTextEditor
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
-            string folder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            StreamReader reader = new StreamReader(folder + @"\secret_plan.txt");
-            StreamWriter writer = new StreamWriter(folder + @"\emailToCapitanAmazing.txt");
-
-            writer.WriteLine("To: CapitanAmazing@objectville.net");
-            writer.WriteLine("From: Comissioner@objectville.net");
-            writer.WriteLine("Subject: Can you save the day... again?");
-            writer.WriteLine();
-            writer.WriteLine("We've discovered the Swindler's plan:");
-            while (!reader.EndOfStream)
-            {
-                string lineFromThePlan = reader.ReadLine();
-                writer.WriteLine("The plan -> " + lineFromThePlan);
-            }
-            writer.WriteLine();
-            writer.WriteLine("Can you help us?");
-            writer.Close();
-            reader.Close();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
     }
 }
